@@ -1,8 +1,9 @@
 🚀 Insights de Usuários com SQL JOINs
+Análise de Comportamento de Usuários Usando SQL de Forma Clara e Prática
 
-Este projeto tem como objetivo estudar e demonstrar, de forma simples e prática, como consultas SQL utilizando JOINs podem ser aplicadas para analisar o comportamento de usuários dentro de um sistema.
+Este projeto demonstra, de maneira simples e objetiva, como utilizar consultas SQL com JOINs para analisar o comportamento de usuários dentro de um sistema.
 
-O foco principal é entender padrões como:
+O foco é entender padrões importantes, como:
 
 usuários que acessam mas não compram
 
@@ -12,76 +13,58 @@ usuários sem atividade
 
 usuários com comportamento completo
 
-valores consumidos
+valores gastos
 
-relacionamento entre entidades
+relacionamentos entre tabelas
 
-As consultas foram organizadas em arquivos separados para manter o repositório limpo, modular e fácil de navegar.
+As consultas estão separadas em arquivos organizados para manter o repositório limpo e fácil de navegar.
 
 🎯 Objetivo do Projeto
 
-O propósito deste repositório é:
+Este repositório foi criado para:
 
-treinar JOINs de forma clara e didática
+praticar JOINs de forma clara e didática
 
-mostrar situações reais que ocorrem em bancos de dados
+simular situações reais encontradas em bancos de dados
 
-fornecer exemplos simples para estudo, portfólio ou entrevistas
+servir como material de estudo, portfólio ou apoio para entrevistas
 
-demonstrar como integrar informações entre diferentes tabelas
+mostrar como cruzar informações entre tabelas
 
-criar um conjunto de consultas reutilizáveis para análise de comportamento
+criar um conjunto simples e reutilizável de consultas de análise de comportamento
 
-Todas as queries utilizam estruturas básicas e fáceis de entender, com foco em clareza e prática imediata.
+O foco é simplicidade, entendimento rápido e aplicação prática.
 
 🗂 Estrutura do Repositório
 /README.md
 /queries/
-    /basicas.sql
-    /intermediarias.sql
-    /comportamento.sql
-/scripts/
-    /criacao_tabelas.sql
-    /inserts.sql
-/datasets/
-    /usuarios.csv
-    /acessos.csv
-    /compras.csv
-
-📁 Explicação das pastas
+   
+📁 Descrição das Pastas
 
 queries/
-Contém todas as consultas do projeto, separadas por tema ou nível de complexidade.
+Todas as consultas SQL.
 
-scripts/
-Arquivos para criar tabelas e inserir dados de exemplo.
 
-datasets/
-Conjuntos de dados simples para testar as queries.
-
-🗄 Tabelas Utilizadas
-
-A base do projeto é formada por três tabelas simples e comuns:
-
+🗄 Estrutura das Tabelas
 usuarios(id, user_name)
 acessos(id, user_id, type)
 compras(id, user_id, price)
 
 
-Essas tabelas permitem estudar relações de comportamento entre cadastro, acesso e compra.
+Essas três tabelas permitem análises básicas e bem próximas de cenários reais.
 
-📌 O que você encontra neste projeto
+📌 O que este projeto oferece
 
-JOINs básicos e intermediários
+consultas com JOINs para estudo
 
-comportamentos cruzados entre tabelas
+análise simples de comportamento
 
-consultas estruturadas e organizadas
+exemplos reais de cruzamento entre tabelas
 
-exemplos práticos para estudo
+estrutura limpa, objetiva e organizada
 
-cenários reais usados em empresas para análise de engajamento
+ótimo para portfólio, estudo ou prática diária
 
 🤝 Contribuições
 
-Sugestões, melhorias e novas queries são bem-vindas.
+Sugestões, melhorias e novas queries são bem-vinda
